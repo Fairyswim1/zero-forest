@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "sourceHash": "0e2ed1fa131a21586a815ecc73658482bb5e6058871fb3f941825fd9e65d748c",
+  "sourceHash": "5ef5188f125fbf340348d2e33cedcd1064c4ef58908dd9049ba9ad00e72cbdc1",
   "checkedAt": "2026-10-29T08:05:54.716Z",
   "screenshots": [
     "evidence/targets-desktop.png",
@@ -178,5 +178,11 @@
     "lossReloadUndoAlternativeWinRound13": true,
     "tutorialCompletedAndOriginal18WinsRestored": true,
     "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:33.714Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
   }
 }
