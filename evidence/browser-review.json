@@ -1,11 +1,12 @@
 {
   "status": "passed",
-  "sourceHash": "902767e9a5713c13916303c0acc4058505c1d16a8c28fa1568d2f80f287da1b2",
-  "checkedAt": "2026-10-29T05:51:40.952Z",
+  "sourceHash": "58662deaccaa85240521983ad7014796dc715074a0289436757e6f3ed1d00455",
+  "checkedAt": "2026-10-29T05:59:28.339Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
-    "evidence/targets-assessment.png"
+    "evidence/targets-assessment.png",
+    "evidence/home-mobile.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -40,5 +41,19 @@
       "body": "Gowun Dodum"
     }
   },
-  "studentPlaytest": "not_run"
+  "studentPlaytest": "not_run",
+  "previousReview": {
+    "sourceHash": "902767e9a5713c13916303c0acc4058505c1d16a8c28fa1568d2f80f287da1b2",
+    "checkedAt": "2026-10-29T05:51:40.952Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:28.339Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  }
 }
