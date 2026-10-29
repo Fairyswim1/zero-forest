@@ -1,7 +1,7 @@
 {
   "id": "zero-forest",
-  "title": "숫자 숲",
-  "version": "0.3.1",
+  "title": "넘버 블룸",
+  "version": "0.4.0",
   "grade": 1,
   "unit": "2-3 정수와 유리수의 덧셈 · 정수 부분",
   "status": "playtest_sample",
@@ -10,14 +10,16 @@
     "assets/background.png",
     "assets/stone.png",
     "assets/button.png",
-    "assets/spirit.png"
+    "assets/spirit.png",
+    "assets/round-lantern-v1.png"
   ],
   "generatedRoles": {
     "background": "assets/background.png",
     "character": "assets/spirit.png",
     "interactiveProp": "assets/stone.png",
     "controls": "assets/button.png",
-    "reward": "assets/spirit.png"
+    "reward": "assets/spirit.png",
+    "roundNavigation": "assets/round-lantern-v1.png"
   },
   "obstacles": "별도 적이나 지우기 횟수 제한 없음. 소모되는 돌과 이웃 관계가 다음 목표의 제약.",
   "prototype": true,
@@ -38,5 +40,6 @@
     "steps": 7,
     "practiceProgress": "isolated-memory",
     "style": "spotlight"
-  }
+  },
+  "subtitle": "수로 피우는 숲"
 }

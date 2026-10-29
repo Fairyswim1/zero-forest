@@ -2,147 +2,147 @@ TAP version 13
 # Subtest: only targeted addition skills and stable unseen forms
 ok 1 - only targeted addition skills and stable unseen forms
   ---
-  duration_ms: 3.8881
+  duration_ms: 4.1322
   ...
 # Subtest: wrong first answers, help, retries and blanks never count as independent
 ok 2 - wrong first answers, help, retries and blanks never count as independent
   ---
-  duration_ms: 3.5295
+  duration_ms: 3.3971
   ...
 # Subtest: distinct first submissions plus explanation review required; duplicates cannot inflate
 ok 3 - distinct first submissions plus explanation review required; duplicates cannot inflate
   ---
-  duration_ms: 1.2212
+  duration_ms: 2.1147
   ...
 # Subtest: construction tasks include nonzero goals and positive/negative answers
 ok 4 - construction tasks include nonzero goals and positive/negative answers
   ---
-  duration_ms: 0.4184
+  duration_ms: 0.2982
   ...
 # Subtest: stage 1: all targets independently achievable in order
 ok 5 - stage 1: all targets independently achievable in order
   ---
-  duration_ms: 3.1625
+  duration_ms: 3.8152
   ...
 # Subtest: stage 2: all targets independently achievable in order
 ok 6 - stage 2: all targets independently achievable in order
   ---
-  duration_ms: 0.5355
+  duration_ms: 0.9125
   ...
 # Subtest: stage 3: all targets independently achievable in order
 ok 7 - stage 3: all targets independently achievable in order
   ---
-  duration_ms: 2.8881
+  duration_ms: 4.2174
   ...
 # Subtest: stage 4: all targets independently achievable in order
 ok 8 - stage 4: all targets independently achievable in order
   ---
-  duration_ms: 4.3016
+  duration_ms: 4.9233
   ...
 # Subtest: stage 5: all targets independently achievable in order
 ok 9 - stage 5: all targets independently achievable in order
   ---
-  duration_ms: 6.7354
+  duration_ms: 6.8682
   ...
 # Subtest: stage 6: all targets independently achievable in order
 ok 10 - stage 6: all targets independently achievable in order
   ---
-  duration_ms: 22.502
+  duration_ms: 28.4862
   ...
 # Subtest: 0, positive and negative goals are distinct; cannot submit a future goal early
 ok 11 - 0, positive and negative goals are distinct; cannot submit a future goal early
   ---
-  duration_ms: 0.4115
+  duration_ms: 0.323
   ...
 # Subtest: nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
 ok 12 - nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
   ---
-  duration_ms: 0.5335
+  duration_ms: 0.4129
   ...
 # Subtest: selection backtracks and does not exceed four stones
 ok 13 - selection backtracks and does not exceed four stones
   ---
-  duration_ms: 2.0161
+  duration_ms: 1.8306
   ...
 # Subtest: stage 2: same-size correct first sum can destroy the next goal
 ok 14 - stage 2: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.9001
+  duration_ms: 0.592
   ...
 # Subtest: stage 3: same-size correct first sum can destroy the next goal
 ok 15 - stage 3: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.6472
+  duration_ms: 0.4123
   ...
 # Subtest: stage 4: same-size correct first sum can destroy the next goal
 ok 16 - stage 4: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.9538
+  duration_ms: 1.0657
   ...
 # Subtest: stage 5: same-size correct first sum can destroy the next goal
 ok 17 - stage 5: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 1.898
+  duration_ms: 2.1145
   ...
 # Subtest: stage 6: same-size correct first sum can destroy the next goal
 ok 18 - stage 6: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 4.9354
+  duration_ms: 5.3293
   ...
 # Subtest: success allows leftover stones and requires every target, not an empty board
 ok 19 - success allows leftover stones and requires every target, not an empty board
   ---
-  duration_ms: 0.322
+  duration_ms: 0.3822
   ...
 # Subtest: a snapshot restores both board and target sequence after a bad choice
 ok 20 - a snapshot restores both board and target sequence after a bad choice
   ---
-  duration_ms: 0.243
+  duration_ms: 0.287
   ...
 # Subtest: boards grow while the four-stone rule stays fixed and row edges never wrap
 ok 21 - boards grow while the four-stone rule stays fixed and row edges never wrap
   ---
-  duration_ms: 0.3161
+  duration_ms: 0.3964
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 22 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.8916
+  duration_ms: 2.0284
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 23 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 86.4679
+  duration_ms: 77.1052
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 24 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.5261
+  duration_ms: 0.5302
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 25 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.2803
+  duration_ms: 0.2873
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 26 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.3067
+  duration_ms: 0.3243
   ...
 # Subtest: first visit uses isolated practice state and leaves existing progress untouched
 ok 27 - first visit uses isolated practice state and leaves existing progress untouched
   ---
-  duration_ms: 4.6594
+  duration_ms: 4.5838
   ...
 # Subtest: skip and replay are per game and replay cannot overwrite learning records
 ok 28 - skip and replay are per game and replay cannot overwrite learning records
   ---
-  duration_ms: 0.7525
+  duration_ms: 0.734
   ...
 # Subtest: storage denied can still skip without a redirect loop
 ok 29 - storage denied can still skip without a redirect loop
   ---
-  duration_ms: 0.4025
+  duration_ms: 0.6544
   ...
 1..29
 # tests 29
@@ -152,4 +152,4 @@ ok 29 - storage denied can still skip without a redirect loop
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 222.9215
+# duration_ms 223.3442

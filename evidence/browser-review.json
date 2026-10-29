@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403",
-  "checkedAt": "2026-10-29T07:09:36.893Z",
+  "sourceHash": "499e3f3d1748411c915e76f364eca1eb5e79dc5cc1fa88d56250279885e7935b",
+  "checkedAt": "2026-10-29T07:32:50.103Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -13,7 +13,11 @@
     "evidence/number-forest-desktop.png",
     "evidence/number-forest-mobile.png",
     "evidence/tutorial-desktop.png",
-    "evidence/tutorial-mobile.png"
+    "evidence/tutorial-mobile.png",
+    "evidence/bloom-desktop.png",
+    "evidence/bloom-mobile.png",
+    "evidence/bloom-wide.png",
+    "evidence/bloom-tutorial-mobile.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -50,8 +54,8 @@
   },
   "studentPlaytest": "not_run",
   "previousReview": {
-    "sourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5",
-    "checkedAt": "2026-10-29T06:42:46.794Z"
+    "sourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403",
+    "checkedAt": "2026-10-29T07:09:36.893Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:28.339Z",
@@ -100,8 +104,8 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
-    "previousSourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5"
+    "reason": "Only name changed in assessment metadata; tasks, rubric, engine and record/export UI unchanged.",
+    "previousSourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403"
   },
   "usabilityRevision": {
     "status": "passed",
@@ -131,5 +135,24 @@
       "Frost repeated click cannot skip temperature lesson"
     ],
     "browserConsoleErrors": 0
+  },
+  "presentationRevision": {
+    "status": "passed",
+    "title": "넘버 블룸 — 수로 피우는 숲",
+    "viewports": [
+      "2048x1040",
+      "1280x720",
+      "390x844"
+    ],
+    "checks": [
+      "All six stages won through mobile UI",
+      "7-step guided practice completed; existing collection restored",
+      "No horizontal overflow; mobile 6-column tiles 51.5px",
+      "1280 title 42px versus home brand 14px",
+      "Round lantern image distinct from square number stone",
+      "No browser warnings or errors",
+      "Assessment screen title shows Number Bloom; previous learner report retained"
+    ],
+    "futureExpansion": "18-stage garden proposal only; not implemented"
   }
 }

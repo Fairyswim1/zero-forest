@@ -290,5 +290,34 @@
     "accessibility": "현재 대상과 안내 버튼으로 키보드 이동, Escape로 나가기, 390px에서 대상과 설명 카드 분리",
     "replay": "상단 처음 안내 버튼",
     "failureRecovery": "오답 시 다음 비활성, 연습 다시/건너뛰기 제공"
+  },
+  "presentationRevision": {
+    "title": "넘버 블룸",
+    "subtitle": "수로 피우는 숲",
+    "layout": "좌측 정원 지도 / 중앙 퍼즐 / 우측 목표·조작, 화면 높이 가운데 배치",
+    "roundAsset": "독립 생성 원형 등불 장식. 숫자 타일 재사용 안 함.",
+    "progress": "완료 정원 체크와 빛. 기존 게임 진행과 학습 기록 유지."
+  },
+  "expansionProposal": {
+    "status": "idea_only_not_implemented",
+    "recommended": "3개 정원 × 6라운드 = 18라운드, 정원별 꽃 수집",
+    "chapters": [
+      {
+        "name": "씨앗의 숲",
+        "focus": "2~4개 수의 조합과 다양한 목표"
+      },
+      {
+        "name": "잔빛의 정원",
+        "focus": "다음 목표를 위해 필요한 돌 남기기"
+      },
+      {
+        "name": "만개하는 숲",
+        "focus": "낙하 후 이웃 관계까지 고려하기"
+      }
+    ],
+    "ending": "세 꽃을 모아 중앙 정원을 피우는 짧은 엔딩",
+    "replay": "보유한 꽃의 다른 색을 얻는 선택 퍼즐. 속도 경쟁 대신 다른 조합 발견.",
+    "optionalLater": "검증된 오늘의 정원 1개. 단순 무작위 생성이나 풀 수 없는 판은 제공하지 않음.",
+    "notRecommended": "초기에는 타이머·체력·재화·스킬을 추가하지 않음"
   }
 }

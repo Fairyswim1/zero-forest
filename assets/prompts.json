@@ -20,6 +20,13 @@
       "key": "zero-spirit",
       "transparent_background": true,
       "prompt": "Use case: stylized-concept. Asset type: single collectible mascot / reward sprite in a cozy woodland number puzzle. One adorable tiny round forest spirit, a warm glowing golden seed body with two little dark eyes, tiny smile, two fresh green leaf ears and a small fluffy cream scarf, holding one luminous golden star. Floating seated pose, readable silhouette, hand-painted premium mobile puzzle illustration, sophisticated gouache shading and amber light, jade accents. Front three-quarter view. Character fills 85% of a square canvas with generous safe edge. Transparent background, no ground, no scene, no text, no letters, no UI, no other characters."
+    },
+    {
+      "key": "round-lantern-v1",
+      "file": "assets/round-lantern-v1.png",
+      "tool": "built-in image_gen",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Production game UI asset: exactly ONE reusable level-selection waypoint medallion for a premium hand-painted woodland puzzle game. A distinctive round antique brass lantern medallion, short curved hanging loop at top, two small elegant jade leaves hugging the sides, warm golden beveled rim, large smooth deep teal frosted-glass circular center occupying 65% of the object, completely blank so a cream level number can be rendered by game code. Frontal orthographic view, symmetrical, excellent legibility at 72px. Painted gouache textures and restrained rich shading, sophisticated storybook fantasy, matching a teal night forest with warm fireflies. Round silhouette, NOT a square number tile, NOT a rectangular button. The medallion fills 90% of the square canvas. Genuine transparent alpha background outside silhouette. No text, no numbers, no letters, no logos, no scenery, no other objects, no variants or sprite sheet. Keep central glass flat, dark and uncluttered."
     }
   ]
 }
