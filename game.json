@@ -1,7 +1,7 @@
 {
   "id": "zero-forest",
   "title": "제로 숲",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "grade": 1,
   "unit": "2-3 정수와 유리수의 덧셈 · 정수 부분",
   "status": "playtest_sample",
@@ -22,5 +22,12 @@
   "obstacles": "별도 적이나 지우기 횟수 제한 없음. 소모되는 돌과 이웃 관계가 다음 목표의 제약.",
   "prototype": true,
   "repository": "https://github.com/Fairyswim1/zero-forest",
-  "repositoryStatus": "created"
+  "repositoryStatus": "created",
+  "category": "수와 연산",
+  "tags": [
+    "정수 덧셈",
+    "목표 합",
+    "남길 돌 선택"
+  ],
+  "duration": "10–20분"
 }

@@ -2,102 +2,102 @@ TAP version 13
 # Subtest: only targeted addition skills and stable unseen forms
 ok 1 - only targeted addition skills and stable unseen forms
   ---
-  duration_ms: 2.7126
+  duration_ms: 4.0566
   ...
 # Subtest: wrong first answers, help, retries and blanks never count as independent
 ok 2 - wrong first answers, help, retries and blanks never count as independent
   ---
-  duration_ms: 2.415
+  duration_ms: 2.9915
   ...
 # Subtest: distinct first submissions plus explanation review required; duplicates cannot inflate
 ok 3 - distinct first submissions plus explanation review required; duplicates cannot inflate
   ---
-  duration_ms: 0.7365
+  duration_ms: 0.7988
   ...
 # Subtest: construction tasks include nonzero goals and positive/negative answers
 ok 4 - construction tasks include nonzero goals and positive/negative answers
   ---
-  duration_ms: 0.2312
+  duration_ms: 0.2458
   ...
 # Subtest: stage 1: all targets independently achievable in order
 ok 5 - stage 1: all targets independently achievable in order
   ---
-  duration_ms: 2.1311
+  duration_ms: 3.1567
   ...
 # Subtest: stage 2: all targets independently achievable in order
 ok 6 - stage 2: all targets independently achievable in order
   ---
-  duration_ms: 0.5419
+  duration_ms: 0.5562
   ...
 # Subtest: stage 3: all targets independently achievable in order
 ok 7 - stage 3: all targets independently achievable in order
   ---
-  duration_ms: 0.3072
+  duration_ms: 0.3401
   ...
 # Subtest: stage 4: all targets independently achievable in order
 ok 8 - stage 4: all targets independently achievable in order
   ---
-  duration_ms: 0.446
+  duration_ms: 1.0763
   ...
 # Subtest: stage 5: all targets independently achievable in order
 ok 9 - stage 5: all targets independently achievable in order
   ---
-  duration_ms: 1.2617
+  duration_ms: 1.3366
   ...
 # Subtest: stage 6: all targets independently achievable in order
 ok 10 - stage 6: all targets independently achievable in order
   ---
-  duration_ms: 1.2131
+  duration_ms: 1.6389
   ...
 # Subtest: 0, positive and negative goals are distinct; cannot submit a future goal early
 ok 11 - 0, positive and negative goals are distinct; cannot submit a future goal early
   ---
-  duration_ms: 0.2263
+  duration_ms: 0.3935
   ...
 # Subtest: nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
 ok 12 - nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
   ---
-  duration_ms: 0.4661
+  duration_ms: 0.445
   ...
 # Subtest: selection backtracks and does not exceed four stones
 ok 13 - selection backtracks and does not exceed four stones
   ---
-  duration_ms: 1.2877
+  duration_ms: 1.3119
   ...
 # Subtest: stage 2: same-size correct first sum can destroy the next goal
 ok 14 - stage 2: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.7881
+  duration_ms: 0.8889
   ...
 # Subtest: stage 3: same-size correct first sum can destroy the next goal
 ok 15 - stage 3: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.2395
+  duration_ms: 0.2568
   ...
 # Subtest: stage 4: same-size correct first sum can destroy the next goal
 ok 16 - stage 4: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.4108
+  duration_ms: 0.4042
   ...
 # Subtest: stage 5: same-size correct first sum can destroy the next goal
 ok 17 - stage 5: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 1.3162
+  duration_ms: 1.3111
   ...
 # Subtest: stage 6: same-size correct first sum can destroy the next goal
 ok 18 - stage 6: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.3689
+  duration_ms: 0.5762
   ...
 # Subtest: success allows leftover stones and requires every target, not an empty board
 ok 19 - success allows leftover stones and requires every target, not an empty board
   ---
-  duration_ms: 0.2895
+  duration_ms: 0.4127
   ...
 # Subtest: a snapshot restores both board and target sequence after a bad choice
 ok 20 - a snapshot restores both board and target sequence after a bad choice
   ---
-  duration_ms: 0.2815
+  duration_ms: 0.4033
   ...
 1..20
 # tests 20
@@ -107,4 +107,4 @@ ok 20 - a snapshot restores both board and target sequence after a bad choice
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 122.735
+# duration_ms 141.9408

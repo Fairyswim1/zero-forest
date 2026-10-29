@@ -1,12 +1,15 @@
 {
   "status": "passed",
-  "sourceHash": "58662deaccaa85240521983ad7014796dc715074a0289436757e6f3ed1d00455",
-  "checkedAt": "2026-10-29T05:59:28.339Z",
+  "sourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87",
+  "checkedAt": "2026-10-29T06:11:39.938Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
     "evidence/targets-assessment.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/expanded-desktop.png",
+    "evidence/expanded-mobile.png",
+    "evidence/expanded-wide.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -43,8 +46,8 @@
   },
   "studentPlaytest": "not_run",
   "previousReview": {
-    "sourceHash": "902767e9a5713c13916303c0acc4058505c1d16a8c28fa1568d2f80f287da1b2",
-    "checkedAt": "2026-10-29T05:51:40.952Z"
+    "sourceHash": "58662deaccaa85240521983ad7014796dc715074a0289436757e6f3ed1d00455",
+    "checkedAt": "2026-10-29T05:59:28.339Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:28.339Z",
@@ -55,5 +58,32 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "layoutRevision": {
+    "status": "passed",
+    "desktop": {
+      "width": 1281,
+      "height": 720,
+      "boardWidth": 720,
+      "overflow": 0
+    },
+    "wide": {
+      "width": 1920,
+      "height": 1080,
+      "boardWidth": 1200,
+      "overflow": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "overflowX": 0,
+      "controlsBottom": 710
+    },
+    "checks": [
+      "6 stages completed through actual UI after layout change",
+      "Mobile stage 2 losing choice, undo, new choice and win",
+      "No browser warnings or errors"
+    ],
+    "unchanged": "Game engine and assessment source unchanged; prior assessment evidence retained"
   }
 }
