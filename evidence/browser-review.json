@@ -1,10 +1,10 @@
 {
   "status": "passed",
-  "sourceHash": "6c30067f0ce7793e5463b7262da86475425caf887301d4ce063febefd2a158dc",
-  "checkedAt": "2026-10-29T05:31:17.546Z",
+  "sourceHash": "549f6c0f53cf06ad9edf761408994c9a87b07b507e1c8028a841ea8f15bb3d4a",
+  "checkedAt": "2026-10-29T05:39:44.970Z",
   "screenshots": [
-    "evidence/desktop.png",
-    "evidence/mobile.png",
+    "evidence/centred-desktop.png",
+    "evidence/centred-mobile.png",
     "evidence/assessment-mobile.png"
   ],
   "checks": [
@@ -40,5 +40,30 @@
       "body": "Gowun Dodum"
     }
   },
-  "studentPlaytest": "not_run"
+  "studentPlaytest": "not_run",
+  "previousGameplayReviewAt": "2026-10-29T05:31:17.546Z",
+  "layoutRevision": {
+    "scope": "HTML/CSS만 변경. 게임 엔진과 확인 과제는 이전 검증에서 변경 없음.",
+    "desktop": {
+      "viewport": [
+        1281,
+        720
+      ],
+      "boardWidth": 587,
+      "previousWidth": 400,
+      "boardCentre": 633,
+      "contentCentre": 633,
+      "controlsBottom": 713
+    },
+    "mobile": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "checks": [
+      "큰 설명 영역 제거",
+      "판의 가로 중심과 화면 내용의 중심 일치",
+      "단계 선택 클릭 가능",
+      "390px 제목·숫자·조작 버튼 가로 넘침 없음"
+    ]
+  }
 }

@@ -2,77 +2,77 @@ TAP version 13
 # Subtest: only targeted addition skills and stable unseen forms
 ok 1 - only targeted addition skills and stable unseen forms
   ---
-  duration_ms: 2.2387
+  duration_ms: 2.4878
   ...
 # Subtest: wrong first answers, help, retries and blanks never count as independent
 ok 2 - wrong first answers, help, retries and blanks never count as independent
   ---
-  duration_ms: 3.1081
+  duration_ms: 3.4685
   ...
 # Subtest: distinct first submissions plus explanation review required; duplicates cannot inflate
 ok 3 - distinct first submissions plus explanation review required; duplicates cannot inflate
   ---
-  duration_ms: 0.75
+  duration_ms: 0.7539
   ...
 # Subtest: stage 1: independently solvable within budget
 ok 4 - stage 1: independently solvable within budget
   ---
-  duration_ms: 2.831
+  duration_ms: 4.3924
   ...
 # Subtest: stage 2: independently solvable within budget
 ok 5 - stage 2: independently solvable within budget
   ---
-  duration_ms: 0.1708
+  duration_ms: 0.3322
   ...
 # Subtest: stage 3: independently solvable within budget
 ok 6 - stage 3: independently solvable within budget
   ---
-  duration_ms: 0.4426
+  duration_ms: 0.7878
   ...
 # Subtest: stage 4: independently solvable within budget
 ok 7 - stage 4: independently solvable within budget
   ---
-  duration_ms: 0.7223
+  duration_ms: 0.9678
   ...
 # Subtest: stage 5: independently solvable within budget
 ok 8 - stage 5: independently solvable within budget
   ---
-  duration_ms: 7.1673
+  duration_ms: 8.503
   ...
 # Subtest: stage 6: independently solvable within budget
 ok 9 - stage 6: independently solvable within budget
   ---
-  duration_ms: 1.3222
+  duration_ms: 1.2698
   ...
 # Subtest: nonadjacent, duplicate, overlong and wrong sums rejected
 ok 10 - nonadjacent, duplicate, overlong and wrong sums rejected
   ---
-  duration_ms: 0.3883
+  duration_ms: 0.3798
   ...
 # Subtest: selection can backtrack; 4 tiles is the limit
 ok 11 - selection can backtrack; 4 tiles is the limit
   ---
-  duration_ms: 1.3952
+  duration_ms: 1.4093
   ...
 # Subtest: pairs are easy early but waste the later budget
 ok 12 - pairs are easy early but waste the later budget
   ---
-  duration_ms: 0.5404
+  duration_ms: 0.6276
   ...
 # Subtest: a long chain is not always a good chain
 ok 13 - a long chain is not always a good chain
   ---
-  duration_ms: 0.8016
+  duration_ms: 1.6179
   ...
 # Subtest: gravity is essential in stage 5, fixed tiles cannot solve it
 ok 14 - gravity is essential in stage 5, fixed tiles cannot solve it
   ---
-  duration_ms: 3.2879
+  duration_ms: 2.7172
   ...
 # Subtest: failure, success priority and restoring a move
 ok 15 - failure, success priority and restoring a move
   ---
-  duration_ms: 0.2612
+  duration_ms: 0.2753
   ...
 1..15
 # tests 15
@@ -82,4 +82,4 @@ ok 15 - failure, success priority and restoring a move
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 124.3914
+# duration_ms 151.1716
