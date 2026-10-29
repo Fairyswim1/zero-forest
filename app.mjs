@@ -1,9 +1,12 @@
+import {createTutorialContext,mountTutorial} from './tutorial.mjs';
+const tourContext=createTutorialContext('zero-forest');
+const gameStorage=tourContext.storage;
 import {bindSoundControls} from './sound.mjs';
 const effects=bindSoundControls('zero-forest:effects:v1');
 import {levels} from './levels.mjs';
 import {select,sum,valid,collapse,result} from './engine.mjs';
 const $=s=>document.querySelector(s),KEY='zero-forest:targets-v3',fmt=n=>n>0?'+'+n:String(n).replace('-','−');
-let saved={};try{saved=JSON.parse(localStorage.getItem(KEY))||{};}catch{}
+let saved={};try{saved=JSON.parse(gameStorage.getItem(KEY))||{};}catch{}
 let index=Number.isInteger(saved.index)&&saved.index>=0&&saved.index<levels.length?saved.index:0,board=[...levels[index].board],remaining=levels[index].targets.length,history=[],path=[],wins=saved.wins||{},events=Array.isArray(saved.events)?saved.events:[],drag=false,moved=false,ignoreClick=false,dragStart=-1,lastDragAt=0,busy=false,message=levels[index].note,motion=null;
 const validBoard=b=>Array.isArray(b)&&b.length===levels[index].board.length&&b.every(v=>v===null||Number.isInteger(v)&&v!==0&&Math.abs(v)<=20);
 if(validBoard(saved.board)&&Number.isInteger(saved.remaining)&&saved.remaining>=0&&saved.remaining<=levels[index].targets.length&&Array.isArray(saved.history)&&saved.history.every(h=>validBoard(h.board)&&Number.isInteger(h.remaining))){board=saved.board;remaining=saved.remaining;history=saved.history;}
@@ -11,7 +14,7 @@ const cols=()=>levels[index].cols;
 const pending=()=>levels[index].targets.slice(levels[index].targets.length-remaining);
 const target=()=>pending()[0];
 if(history.length)message=remaining?`이어서 해볼까요? 지금 목표: ${fmt(target())}`:'목표를 모두 완성했어요!';
-function save(){try{localStorage.setItem(KEY,JSON.stringify({version:3,index,board,remaining,history,wins,events:events.slice(-250)}));}catch{$('#save-warning').hidden=false;}}
+function save(){try{gameStorage.setItem(KEY,JSON.stringify({version:3,index,board,remaining,history,wins,events:events.slice(-250)}));}catch{$('#save-warning').hidden=false;}}
 function log(type,detail={}){events.push({at:new Date().toISOString(),level:index+1,type,...detail});}
 function tone(n=0,good=true){void effects.play(good?(n>4?'success':'select'):'error');}
 function choose(i){if(busy||result(board,pending(),cols())!=='playing')return;const old=path;path=select(path,i,board,cols());if(path===old&&path.length===4)message='한 번에 네 개까지 이을 수 있어요.';else if(path===old)message='가로·세로로 바로 옆에 있는 돌을 골라 주세요.';else{message='';tone(path.length*2);}renderSelection();}
@@ -27,3 +30,13 @@ $('#board').addEventListener('pointermove',e=>{if(!drag||e.buttons===0)return;co
 window.addEventListener('pointerup',()=>{if(drag&&moved)lastDragAt=Date.now();drag=false;});window.addEventListener('pointercancel',()=>{drag=false;});
 $('#board').addEventListener('keydown',e=>{const tile=e.target.closest('.tile');if(!tile)return;const delta={ArrowRight:1,ArrowLeft:-1,ArrowUp:-cols(),ArrowDown:cols()}[e.key];if(delta){e.preventDefault();const i=Number(tile.dataset.index)+delta;if(i>=0&&i<board.length&&(Math.abs(delta)!==1||Math.floor(i/cols())===Math.floor(Number(tile.dataset.index)/cols()))&&!$('#board').children[i].disabled)$('#board').children[i].focus();}if(e.key==='Escape'){path=[];renderSelection();}});
 render();
+
+mountTutorial(tourContext,{title:'숫자 숲',begin:()=>load(0),steps:[
+{target:'#targets',title:'목표는 왼쪽부터',body:'지금은 0, 다음은 +3이에요. 이웃한 돌 2~4개를 더해 목표를 차례로 만들면 성공해요.'},
+{target:['[data-index="8"]','[data-index="9"]'],allow:['[data-index="8"]','[data-index="9"]'],title:'+2와 −2를 이어요',body:'밝게 보이는 두 돌을 차례로 눌러 보세요. +2 + (−2)는 0이에요.',ready:()=>path.length===2&&path.includes(8)&&path.includes(9)},
+{target:'#clear',allow:'#clear',title:'합이 맞으면 지워요',body:'‘0 만들기’를 눌러요. 잘못 더했어도 돌은 사라지지 않으니 다시 고르면 돼요.',ready:()=>remaining===1&&!busy},
+{target:'#targets',title:'다음 목표로 바뀌었어요',body:'이번에는 +3이에요. 다음에 쓸 +1과 +2를 남겨 두었죠? 뒤의 단계도 남길 돌을 생각해요.'},
+{target:['[data-index="10"]','[data-index="11"]'],allow:['[data-index="10"]','[data-index="11"]'],title:'남겨 둔 돌을 연결해요',body:'+1과 +2를 차례로 눌러요. 가로·세로로 바로 이웃해야 하고, 대각선은 이을 수 없어요.',ready:()=>path.length===2&&path.includes(10)&&path.includes(11)},
+{target:'#clear',allow:'#clear',title:'마지막 목표를 완성해요',body:'‘+3 만들기’를 누르면 첫 숲의 목표 두 개가 모두 완성돼요.',ready:()=>remaining===0&&!busy},
+{target:'#outcome',title:'이제 혼자 해볼 차례!',body:'목표를 모두 만들면 돌이 남아도 성공이에요. 막히면 ‘한 수 전’으로 돌아가 다른 돌을 남겨 보세요.'}
+]});

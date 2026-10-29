@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5",
-  "checkedAt": "2026-10-29T06:42:46.794Z",
+  "sourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403",
+  "checkedAt": "2026-10-29T07:09:36.893Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -11,7 +11,9 @@
     "evidence/expanded-mobile.png",
     "evidence/expanded-wide.png",
     "evidence/number-forest-desktop.png",
-    "evidence/number-forest-mobile.png"
+    "evidence/number-forest-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -48,8 +50,8 @@
   },
   "studentPlaytest": "not_run",
   "previousReview": {
-    "sourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87",
-    "checkedAt": "2026-10-29T06:11:39.938Z"
+    "sourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5",
+    "checkedAt": "2026-10-29T06:42:46.794Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:28.339Z",
@@ -98,8 +100,8 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
-    "previousSourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87"
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5"
   },
   "usabilityRevision": {
     "status": "passed",
@@ -109,5 +111,25 @@
       "Desktop stone size capped; mobile late board tile 53px; controls bottom 749px",
       "Versioned play progress; independent assessment history retained"
     ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
   }
 }
