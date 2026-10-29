@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "499e3f3d1748411c915e76f364eca1eb5e79dc5cc1fa88d56250279885e7935b",
-  "checkedAt": "2026-10-29T07:32:50.103Z",
+  "sourceHash": "0e2ed1fa131a21586a815ecc73658482bb5e6058871fb3f941825fd9e65d748c",
+  "checkedAt": "2026-10-29T08:05:54.716Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -17,7 +17,12 @@
     "evidence/bloom-desktop.png",
     "evidence/bloom-mobile.png",
     "evidence/bloom-wide.png",
-    "evidence/bloom-tutorial-mobile.png"
+    "evidence/bloom-tutorial-mobile.png",
+    "evidence/bloom-first-flower.png",
+    "evidence/bloom-ending-mobile.png",
+    "evidence/bloom-collection-mobile.png",
+    "evidence/bloom-18-mobile.png",
+    "evidence/bloom-ending-desktop.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -54,8 +59,8 @@
   },
   "studentPlaytest": "not_run",
   "previousReview": {
-    "sourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403",
-    "checkedAt": "2026-10-29T07:09:36.893Z"
+    "sourceHash": "499e3f3d1748411c915e76f364eca1eb5e79dc5cc1fa88d56250279885e7935b",
+    "checkedAt": "2026-10-29T07:32:50.103Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:28.339Z",
@@ -154,5 +159,24 @@
       "Assessment screen title shows Number Bloom; previous learner report retained"
     ],
     "futureExpansion": "18-stage garden proposal only; not implemented"
+  },
+  "campaignRevision": {
+    "status": "passed",
+    "rounds": 18,
+    "playedAllThroughUI": true,
+    "firstFlowerAt6": true,
+    "secondFlowerAt12": true,
+    "endingAt18": true,
+    "lockedBeforeComplete": true,
+    "oldSixRoundProgressMigrated": true,
+    "collectionSurvivesReload": true,
+    "endingReplay": true,
+    "repeatPlayRetainsFlowers": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "mobileEndingButtonBottom": 763,
+    "lossReloadUndoAlternativeWinRound13": true,
+    "tutorialCompletedAndOriginal18WinsRestored": true,
+    "consoleErrors": 0
   }
 }

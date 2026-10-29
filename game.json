@@ -1,17 +1,19 @@
 {
   "id": "zero-forest",
   "title": "넘버 블룸",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "grade": 1,
   "unit": "2-3 정수와 유리수의 덧셈 · 정수 부분",
-  "status": "playtest_sample",
-  "description": "이웃한 숫자 돌을 연결해 바뀌는 목표를 완성하세요. 숲이 넓어질수록 다음 목표에 쓸 돌과 낙하 뒤의 배치를 함께 생각하는 퍼즐.",
+  "status": "playable",
+  "description": "이웃한 숫자 돌로 목표를 만들며 세 정원의 18라운드를 여행하세요. 다음에 쓸 돌과 낙하 뒤 배치를 생각하고, 꽃 세 송이를 모아 숲을 피우는 퍼즐입니다.",
   "assets": [
     "assets/background.png",
     "assets/stone.png",
     "assets/button.png",
     "assets/spirit.png",
-    "assets/round-lantern-v1.png"
+    "assets/round-lantern-v1.png",
+    "assets/flowers-atlas-v1.png",
+    "assets/forest-bloom-v1.png"
   ],
   "generatedRoles": {
     "background": "assets/background.png",
@@ -19,10 +21,12 @@
     "interactiveProp": "assets/stone.png",
     "controls": "assets/button.png",
     "reward": "assets/spirit.png",
-    "roundNavigation": "assets/round-lantern-v1.png"
+    "roundNavigation": "assets/round-lantern-v1.png",
+    "collectibles": "assets/flowers-atlas-v1.png",
+    "ending": "assets/forest-bloom-v1.png"
   },
   "obstacles": "별도 적이나 지우기 횟수 제한 없음. 소모되는 돌과 이웃 관계가 다음 목표의 제약.",
-  "prototype": true,
+  "prototype": false,
   "repository": "https://github.com/Fairyswim1/zero-forest",
   "repositoryStatus": "created",
   "category": "수와 연산",
@@ -31,7 +35,7 @@
     "목표 합",
     "남길 돌 선택"
   ],
-  "duration": "10–20분",
+  "duration": "30–50분",
   "tutorial": {
     "version": 1,
     "firstVisit": true,
@@ -41,5 +45,11 @@
     "practiceProgress": "isolated-memory",
     "style": "spotlight"
   },
-  "subtitle": "수로 피우는 숲"
+  "subtitle": "수로 피우는 숲",
+  "campaign": {
+    "gardens": 3,
+    "rounds": 18,
+    "flowers": 3,
+    "ending": true
+  }
 }

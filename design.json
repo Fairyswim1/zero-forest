@@ -299,25 +299,371 @@
     "progress": "완료 정원 체크와 빛. 기존 게임 진행과 학습 기록 유지."
   },
   "expansionProposal": {
-    "status": "idea_only_not_implemented",
-    "recommended": "3개 정원 × 6라운드 = 18라운드, 정원별 꽃 수집",
-    "chapters": [
+    "status": "implemented",
+    "gardens": [
       {
         "name": "씨앗의 숲",
-        "focus": "2~4개 수의 조합과 다양한 목표"
+        "flower": "햇살꽃",
+        "lesson": "목표를 잇는 첫걸음",
+        "start": 0,
+        "end": 6
       },
       {
         "name": "잔빛의 정원",
-        "focus": "다음 목표를 위해 필요한 돌 남기기"
+        "flower": "이슬방울꽃",
+        "lesson": "다음에 쓸 돌 남기기",
+        "start": 6,
+        "end": 12
       },
       {
         "name": "만개하는 숲",
-        "focus": "낙하 후 이웃 관계까지 고려하기"
+        "flower": "별빛꽃",
+        "lesson": "내려온 뒤까지 생각하기",
+        "start": 12,
+        "end": 18
       }
     ],
-    "ending": "세 꽃을 모아 중앙 정원을 피우는 짧은 엔딩",
-    "replay": "보유한 꽃의 다른 색을 얻는 선택 퍼즐. 속도 경쟁 대신 다른 조합 발견.",
-    "optionalLater": "검증된 오늘의 정원 1개. 단순 무작위 생성이나 풀 수 없는 판은 제공하지 않음.",
-    "notRecommended": "초기에는 타이머·체력·재화·스킬을 추가하지 않음"
+    "stages": 18,
+    "rewards": "Each six distinct wins grants one generated flower; all 18 unlock bloom ending. Replay retains earned flowers.",
+    "rules": "Original 2–4 orthogonally adjacent stones, ordered sums, gravity and undo; no timers, currencies, new controls during puzzles.",
+    "migration": "Existing v3 board/history/wins retained; first six wins become first flower.",
+    "stagesDetail": [
+      {
+        "round": 1,
+        "name": "목표가 바뀌어요",
+        "targets": [
+          0,
+          3
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "counterexample": "Introductory opposite numbers and changing target."
+      },
+      {
+        "round": 2,
+        "name": "다음 돌을 남겨요",
+        "targets": [
+          3,
+          -2
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 3,
+        "name": "넓어진 숲길",
+        "targets": [
+          3,
+          -8
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "badFirst": [
+          12,
+          17,
+          18
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 4,
+        "name": "세 번의 약속",
+        "targets": [
+          3,
+          5,
+          -8
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "badFirst": [
+          13,
+          18,
+          17
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 5,
+        "name": "내려온 뒤의 만남",
+        "targets": [
+          0,
+          3,
+          5,
+          -8
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "badFirst": [
+          27,
+          28
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 6,
+        "name": "숲을 밝히는 순서",
+        "targets": [
+          3,
+          0,
+          -2,
+          5,
+          -8
+        ],
+        "decision": "combination, conservation and gravity introduction",
+        "badFirst": [
+          16,
+          22
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 7,
+        "name": "두 빛 사이",
+        "targets": [
+          4,
+          2,
+          -6
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          14,
+          19
+        ],
+        "badFirst": [
+          7,
+          12,
+          17
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 8,
+        "name": "세 돌의 약속",
+        "targets": [
+          6,
+          5,
+          -8
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          0,
+          5
+        ],
+        "badFirst": [
+          5,
+          10,
+          11,
+          12
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 9,
+        "name": "작은 수의 자리",
+        "targets": [
+          4,
+          6,
+          -10
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          0,
+          1
+        ],
+        "badFirst": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 10,
+        "name": "남겨 둔 한 송이",
+        "targets": [
+          5,
+          6,
+          -6
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          0,
+          1
+        ],
+        "badFirst": [
+          1,
+          7,
+          13,
+          14
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 11,
+        "name": "긴 길과 짧은 길",
+        "targets": [
+          6,
+          4,
+          -8
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          21,
+          22
+        ],
+        "badFirst": [
+          2,
+          1,
+          7
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 12,
+        "name": "잔빛의 꽃",
+        "targets": [
+          3,
+          5,
+          2,
+          -10
+        ],
+        "decision": "reserve-for-future",
+        "goodFirst": [
+          3,
+          4
+        ],
+        "badFirst": [
+          9,
+          15,
+          14,
+          20
+        ],
+        "counterexample": "Correct current sum consumes stones needed for future targets."
+      },
+      {
+        "round": 13,
+        "name": "위에서 내려온 빛",
+        "targets": [
+          0,
+          5,
+          6,
+          -6
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          6,
+          12
+        ],
+        "badFirst": [
+          8,
+          9
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      },
+      {
+        "round": 14,
+        "name": "엇갈린 두 줄",
+        "targets": [
+          0,
+          3,
+          6,
+          -8
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          6,
+          7
+        ],
+        "badFirst": [
+          3,
+          9
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      },
+      {
+        "round": 15,
+        "name": "같은 수 다른 자리",
+        "targets": [
+          0,
+          3,
+          3,
+          -10
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          23,
+          29
+        ],
+        "badFirst": [
+          15,
+          21
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      },
+      {
+        "round": 16,
+        "name": "한 칸의 여유",
+        "targets": [
+          0,
+          5,
+          6,
+          -6
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          12,
+          13,
+          19
+        ],
+        "badFirst": [
+          22,
+          28,
+          29
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      },
+      {
+        "round": 17,
+        "name": "마지막 꽃봉오리",
+        "targets": [
+          0,
+          4,
+          5,
+          -8
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          4,
+          10,
+          11
+        ],
+        "badFirst": [
+          13,
+          14,
+          15
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      },
+      {
+        "round": 18,
+        "name": "숲이 피어나는 날",
+        "targets": [
+          3,
+          0,
+          4,
+          5,
+          -10
+        ],
+        "decision": "same-values-different-position",
+        "goodFirst": [
+          2,
+          8
+        ],
+        "badFirst": [
+          22,
+          28
+        ],
+        "counterexample": "Same exact consumed values leave identical number inventory but different positions; only one arrangement can finish."
+      }
+    ],
+    "verification": "Independent arithmetic/gravity oracle verifies all 18; campaign tests verify traps, identical-value positional choices, saved flowers and no premature ending.",
+    "limits": "Play success/flowers are not evidence of curriculum completion. No student efficacy claim."
   }
 }

@@ -28,5 +28,19 @@
       "transparent_background": true,
       "prompt": "Use case: stylized-concept. Production game UI asset: exactly ONE reusable level-selection waypoint medallion for a premium hand-painted woodland puzzle game. A distinctive round antique brass lantern medallion, short curved hanging loop at top, two small elegant jade leaves hugging the sides, warm golden beveled rim, large smooth deep teal frosted-glass circular center occupying 65% of the object, completely blank so a cream level number can be rendered by game code. Frontal orthographic view, symmetrical, excellent legibility at 72px. Painted gouache textures and restrained rich shading, sophisticated storybook fantasy, matching a teal night forest with warm fireflies. Round silhouette, NOT a square number tile, NOT a rectangular button. The medallion fills 90% of the square canvas. Genuine transparent alpha background outside silhouette. No text, no numbers, no letters, no logos, no scenery, no other objects, no variants or sprite sheet. Keep central glass flat, dark and uncluttered."
     }
+  ],
+  "expansion": [
+    {
+      "file": "assets/flowers-atlas-v1.png",
+      "tool": "image_gen",
+      "role": "three garden collectible flowers",
+      "prompt": "Use case: stylized-concept. Production collectible sprite atlas for the hand-painted woodland puzzle Number Bloom. One wide horizontal image with exactly THREE equal-width square cells in a single row. Each cell contains one distinct complete fantasy flower growing from a short stem with two jade green leaves, centered in its own cell with generous transparent margins. LEFT: warm ivory and golden five-petal seed blossom. MIDDLE: cool turquoise drooping bellflower with pale luminous tips. RIGHT: elegant violet-pink star-shaped layered bloom with gold center. Full flowers same apparent height, independent separated silhouettes, no overlap between cells. Painterly gouache storybook style, sophisticated polished game assets, warm highlights, rich teal shadows, legible small icons. Genuinely transparent background. No pots, no frame, no numbers, no words, no labels, no scenery. Exact three equal spaced columns, objects entirely within cells. This is one reusable collection atlas."
+    },
+    {
+      "file": "assets/forest-bloom-v1.png",
+      "tool": "image_gen",
+      "role": "animated forest flowering ending background",
+      "prompt": "Use case: illustration-story. Production full-screen ending background for Number Bloom, a sophisticated hand-painted woodland puzzle. A magical forest clearing fully coming into bloom at sunrise. Wide landscape composition 16:9. Ancient trees frame both edges, a winding mossy stone path leads to a radiant flowering tree in upper middle distance. Hundreds of warm ivory-gold blossoms, small turquoise bellflowers and violet-pink star flowers bloom along the path and in graceful hanging vines. Teal shadowed woodland with golden sunbeams and floating luminous pollen, joyful quiet accomplishment. Gouache painterly texture, detailed botanical fantasy game art, lush luminous but refined. Leave lower middle slightly calmer and darker for cream text UI placed by code. No letters, no text, no UI, no numbers, no people, no animals. Edge-to-edge landscape."
+    }
   ]
 }
