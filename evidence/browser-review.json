@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "sourceHash": "6c30067f0ce7793e5463b7262da86475425caf887301d4ce063febefd2a158dc",
+  "checkedAt": "2026-10-29T05:31:17.546Z",
+  "screenshots": [
+    "evidence/desktop.png",
+    "evidence/mobile.png",
+    "evidence/assessment-mobile.png"
+  ],
+  "checks": [
+    "6단계 모두 실제 UI 클릭으로 승리",
+    "1단계 안내 후 두 쌍 지우기로 승리",
+    "2단계 잘못된 합 피드백 후 3개 연결 성공",
+    "3단계 짝 지우기로 횟수 소진 패배, 한 수 전 복구, 긴 연결로 재도전 성공",
+    "5단계 모바일 드래그와 되돌리기, 3연속 4개 연결 승리",
+    "새로고침 후 판과 남은 기회 복원",
+    "390px에서 가로 넘침 없음, 숫자·기호·생성 버튼 확인",
+    "브라우저 오류·경고 0"
+  ],
+  "assessment": {
+    "codes": [
+      "9수01-05"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "detail": "빈 제출 차단; 첫 오답 후 도움 재시도는 독립 제외. 7회 응답·도움 1회, 요소별 독립2/3개, 검증용 설명·교사 검토 보존. 새로고침 후 JSON 실제 다운로드.",
+    "sampleOnly": true
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    }
+  },
+  "studentPlaytest": "not_run"
+}

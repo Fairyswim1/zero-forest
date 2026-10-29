@@ -1,0 +1,47 @@
+{
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_2-3_정수와유리수의덧셈.pdf",
+      "sha256": "d20e7cca5cdc1bd908806b3b74c12f15c8152ef505800ee7cbba48d92c849757",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "printedPages": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    }
+  ],
+  "visualReview": true,
+  "visualReviewFiles": [
+    "curriculum/zero-addition-2.png"
+  ],
+  "definitions": [
+    "양수와 음수의 합과 상쇄",
+    "세 수 이상 덧셈의 교환·결합법칙"
+  ],
+  "misconceptions": [
+    "부호를 무시하고 크기만 더함",
+    "합은 같아도 게임의 지우는 순서에 따른 위치 변화는 다름"
+  ],
+  "prerequisites": [
+    "양수·음수",
+    "절댓값"
+  ],
+  "curriculum": {
+    "code": "9수01-05",
+    "pdfPage": 39,
+    "printedPage": 33,
+    "explanationReviewed": true,
+    "considerationsPdfPage": 40,
+    "scope": "정수 덧셈 부분 활동. 사칙계산 전체 이수 아님."
+  },
+  "copyright": "원본 PDF·추출문·교과서 렌더는 게임 저장소 및 배포본에 넣지 않음"
+}

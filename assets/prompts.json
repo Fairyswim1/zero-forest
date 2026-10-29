@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "key": "zero-background",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Asset type: portrait background for an original Korean cozy puzzle game 'Zero Forest'. Hand-painted polished storybook game environment, luminous mossy woodland clearing at blue hour, old curved tree trunks framing both sides, tiny warm fireflies, fern leaves and pale blue woodland flowers along bottom corners, a small wooden walkway across a glowing brook at bottom. Central 60% quiet deep teal atmospheric clearing with very low contrast for placing a puzzle board. Rich tactile painterly style like premium illustrated board game, soft edges, warm gold versus muted jade and navy palette. Portrait 2:3 composition. Environment only, NO UI, no text, no letters, no numbers, no logos."
+    },
+    {
+      "key": "zero-stone",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: single reusable interactive number tile for cozy fantasy puzzle game. Exactly ONE front-facing slightly rounded square polished cream ivory stone tile, subtle carved wooden rim, tiny moss detail only at bottom left edge, gentle warm bevel and contact shadow. Enormous smooth pale ivory blank central area occupying 80% of face for a dark number to be overlaid by code. Orthographic front view, aligned square, no perspective distortion. Stone fills 92% of square canvas, transparent background outside silhouette. Hand-painted premium mobile board game art, tactile gouache and soft 3D shading, crisp silhouette at small size. NO lettering, no number, no symbol, no face, no scenery, no extra objects."
+    },
+    {
+      "key": "zero-button",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: single horizontal game button texture for cozy forest puzzle. Exactly ONE wide low wooden carved plaque, frontal orthographic view, 3:1 aspect ratio, amber honey wood, rounded hand carved ends, slim bronze edging, emerald leaf on each extreme end, tactile beveled depth with dark underside. Smooth light warm golden middle 70% completely blank for dark Korean text overlay. Premium hand-painted fantasy mobile game object, elegant and restrained, not corporate UI. Plaque occupies almost entire width, centered. Transparent outside object, no text, no icons, no numbers, no multiple versions, no background scenery."
+    },
+    {
+      "key": "zero-spirit",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: single collectible mascot / reward sprite in a cozy woodland number puzzle. One adorable tiny round forest spirit, a warm glowing golden seed body with two little dark eyes, tiny smile, two fresh green leaf ears and a small fluffy cream scarf, holding one luminous golden star. Floating seated pose, readable silhouette, hand-painted premium mobile puzzle illustration, sophisticated gouache shading and amber light, jade accents. Front three-quarter view. Character fills 85% of a square canvas with generous safe edge. Transparent background, no ground, no scene, no text, no letters, no UI, no other characters."
+    }
+  ]
+}
