@@ -1,11 +1,11 @@
 {
   "id": "zero-forest",
-  "title": "제로 숲",
-  "version": "0.2.1",
+  "title": "숫자 숲",
+  "version": "0.3.0",
   "grade": 1,
   "unit": "2-3 정수와 유리수의 덧셈 · 정수 부분",
   "status": "playtest_sample",
-  "description": "이웃한 숫자 돌 2~4개를 이어 현재 목표를 만들고, 다음 목표에 쓸 돌을 남기는 6단계 숲 퍼즐.",
+  "description": "이웃한 숫자 돌을 연결해 바뀌는 목표를 완성하세요. 숲이 넓어질수록 다음 목표에 쓸 돌과 낙하 뒤의 배치를 함께 생각하는 퍼즐.",
   "assets": [
     "assets/background.png",
     "assets/stone.png",

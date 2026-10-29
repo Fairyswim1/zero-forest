@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87",
-  "checkedAt": "2026-10-29T06:11:39.938Z",
+  "sourceHash": "a9d04dbaf1c0b861be85da4a37696a3556a93880e86274376bdf2b9eb60e8ae5",
+  "checkedAt": "2026-10-29T06:42:46.794Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -9,7 +9,9 @@
     "evidence/home-mobile.png",
     "evidence/expanded-desktop.png",
     "evidence/expanded-mobile.png",
-    "evidence/expanded-wide.png"
+    "evidence/expanded-wide.png",
+    "evidence/number-forest-desktop.png",
+    "evidence/number-forest-mobile.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -46,8 +48,8 @@
   },
   "studentPlaytest": "not_run",
   "previousReview": {
-    "sourceHash": "58662deaccaa85240521983ad7014796dc715074a0289436757e6f3ed1d00455",
-    "checkedAt": "2026-10-29T05:59:28.339Z"
+    "sourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87",
+    "checkedAt": "2026-10-29T06:11:39.938Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:28.339Z",
@@ -85,5 +87,27 @@
       "No browser warnings or errors"
     ],
     "unchanged": "Game engine and assessment source unchanged; prior assessment evidence retained"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "1a62135722030c8a42a7c572c4bc29963ce913c469e0dddc4e36111b0ae30b87"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "All six new boards won through actual UI",
+      "Stage 2 wrong choice loses; reload preserves loss; undo and alternative win on 390px",
+      "Desktop stone size capped; mobile late board tile 53px; controls bottom 749px",
+      "Versioned play progress; independent assessment history retained"
+    ]
   }
 }
