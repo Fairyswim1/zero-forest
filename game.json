@@ -1,11 +1,11 @@
 {
   "id": "zero-forest",
   "title": "제로 숲",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "grade": 1,
   "unit": "2-3 정수와 유리수의 덧셈 · 정수 부분",
   "status": "playtest_sample",
-  "description": "이웃한 숫자 돌을 최대 네 개 이어 합이 0이 되면 지우는 숲 퍼즐. 같은 규칙으로 조합과 남길 돌, 떨어질 위치를 고민하는 6단계.",
+  "description": "이웃한 숫자 돌 2~4개를 이어 현재 목표를 만들고, 다음 목표에 쓸 돌을 남기는 6단계 숲 퍼즐.",
   "assets": [
     "assets/background.png",
     "assets/stone.png",
@@ -19,7 +19,7 @@
     "controls": "assets/button.png",
     "reward": "assets/spirit.png"
   },
-  "obstacles": "별도의 적·장애물 규칙은 넣지 않음. 공간 배치와 지우기 횟수가 제약.",
+  "obstacles": "별도 적이나 지우기 횟수 제한 없음. 소모되는 돌과 이웃 관계가 다음 목표의 제약.",
   "prototype": true,
   "repository": "https://github.com/Fairyswim1/zero-forest",
   "repositoryStatus": "created"

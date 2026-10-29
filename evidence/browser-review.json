@@ -1,21 +1,22 @@
 {
   "status": "passed",
-  "sourceHash": "549f6c0f53cf06ad9edf761408994c9a87b07b507e1c8028a841ea8f15bb3d4a",
-  "checkedAt": "2026-10-29T05:39:44.970Z",
+  "sourceHash": "902767e9a5713c13916303c0acc4058505c1d16a8c28fa1568d2f80f287da1b2",
+  "checkedAt": "2026-10-29T05:51:40.952Z",
   "screenshots": [
-    "evidence/centred-desktop.png",
-    "evidence/centred-mobile.png",
-    "evidence/assessment-mobile.png"
+    "evidence/targets-desktop.png",
+    "evidence/targets-mobile.png",
+    "evidence/targets-assessment.png"
   ],
   "checks": [
-    "6단계 모두 실제 UI 클릭으로 승리",
-    "1단계 안내 후 두 쌍 지우기로 승리",
-    "2단계 잘못된 합 피드백 후 3개 연결 성공",
-    "3단계 짝 지우기로 횟수 소진 패배, 한 수 전 복구, 긴 연결로 재도전 성공",
-    "5단계 모바일 드래그와 되돌리기, 3연속 4개 연결 승리",
-    "새로고침 후 판과 남은 기회 복원",
-    "390px에서 가로 넘침 없음, 숫자·기호·생성 버튼 확인",
-    "브라우저 오류·경고 0"
+    "6개 단계 모두 UI 조작으로 목표 순서 완료",
+    "1단계에서 미래 목표 +3을 먼저 제출하면 현재 0 유지",
+    "현재·다음·완료 목표 표시가 실제 제거와 함께 갱신",
+    "2단계 잘못된 +3 조합은 다음 −2 불가능으로 실패",
+    "실패 상태 새로고침 복원, 한 수 전으로 +3과 8개 돌 복원",
+    "돌이 남은 채 모든 목표 완료 시 승리",
+    "390px에서 +3 성공 후 새로고침으로 −2 목표 복원하고 승리",
+    "390px 가로 넘침 0, 모든 목표와 숫자·버튼 가독성",
+    "오류·경고 콘솔 0"
   ],
   "assessment": {
     "codes": [
@@ -28,8 +29,7 @@
     "report": true,
     "export": true,
     "mobile": true,
-    "detail": "빈 제출 차단; 첫 오답 후 도움 재시도는 독립 제외. 7회 응답·도움 1회, 요소별 독립2/3개, 검증용 설명·교사 검토 보존. 새로고침 후 JSON 실제 다운로드.",
-    "sampleOnly": true
+    "detail": "v2 과제 7회 제출, 도움 1회, 독립 덧셈2/목표구성3. 새 양수·음수 목표 응답과 설명·교사검토 저장, 재로딩 후 JSON 내보내기 내용 확인. 실제 다운로드 버튼 구현은 이전 검증 이후 변경 없음."
   },
   "typography": {
     "status": "passed",
@@ -40,30 +40,5 @@
       "body": "Gowun Dodum"
     }
   },
-  "studentPlaytest": "not_run",
-  "previousGameplayReviewAt": "2026-10-29T05:31:17.546Z",
-  "layoutRevision": {
-    "scope": "HTML/CSS만 변경. 게임 엔진과 확인 과제는 이전 검증에서 변경 없음.",
-    "desktop": {
-      "viewport": [
-        1281,
-        720
-      ],
-      "boardWidth": 587,
-      "previousWidth": 400,
-      "boardCentre": 633,
-      "contentCentre": 633,
-      "controlsBottom": 713
-    },
-    "mobile": {
-      "width": 390,
-      "scrollWidth": 390
-    },
-    "checks": [
-      "큰 설명 영역 제거",
-      "판의 가로 중심과 화면 내용의 중심 일치",
-      "단계 선택 클릭 가능",
-      "390px 제목·숫자·조작 버튼 가로 넘침 없음"
-    ]
-  }
+  "studentPlaytest": "not_run"
 }
