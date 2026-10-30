@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {toLatex,mathHtml,mathSegments} from '../math-display.mjs';
+test('Fractions bind only their denominator, preserving rational coefficients and signs',()=>{assert.equal(toLatex('1/2x − 3/4 = -2'),'\\frac{1}{2}x - \\frac{3}{4} = -2');});
+test('Math renders decimals, powers, coordinates, comparisons and operations without changing original source',()=>{for(const s of ['2x − 3 = 11','(-2, 3)','2^3 × 3²','−1/2 ÷ (−3/4) = 2/3','65° + 55° = 120°','x + (−2x) = −x','1.5 ≤ 2','+2 + (−2) = ?']){const p=mathSegments(s);assert.equal(p.map(x=>x.text).join(''),s);assert.ok(mathHtml(s).includes('katex-mathml'),s);assert.ok(!mathHtml(s).includes('katex-error'));}});
+test('Text and unsafe input are escaped; no HTML commands are accepted',()=>{assert.equal(mathSegments('숲을 피워요').map(x=>x.text).join(''),'숲을 피워요');assert.ok(!mathHtml('<img src=x onerror=alert(1)>').includes('<img'));assert.ok(!mathHtml('JSON').includes('katex'));});
+
+import {makeTasks} from '../assessment/bank.mjs';
+test('Every actual prompt, hint and choice preserves its text across all three variants',()=>{for(let round=0;round<3;round++)for(const task of makeTasks('zero-forest',round))for(const text of [task.prompt,task.hint,...task.fields.flatMap(f=>[f.label,...(f.options||[])])].filter(Boolean)){assert.equal(mathSegments(text).map(p=>p.text).join(''),text);assert.doesNotThrow(()=>mathHtml(text));}});
+test('Blank symbols and incomplete learner notation stay readable',()=>{assert.ok(mathHtml('□ = -2').includes('\\square'));assert.doesNotThrow(()=>mathHtml('x^'));assert.equal(toLatex('3 / 12'),'3 / 12');});

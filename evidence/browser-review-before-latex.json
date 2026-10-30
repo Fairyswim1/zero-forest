@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "sourceHash": "9d1bc65c6393cdf402cc0819c9803fc7d8d03ee7673358f8cad987b3835e33b1",
+  "checkedAt": "2026-10-30T06:17:10.304Z",
+  "screenshots": [
+    "evidence/targets-desktop.png",
+    "evidence/targets-mobile.png",
+    "evidence/targets-assessment.png",
+    "evidence/home-mobile.png",
+    "evidence/expanded-desktop.png",
+    "evidence/expanded-mobile.png",
+    "evidence/expanded-wide.png",
+    "evidence/number-forest-desktop.png",
+    "evidence/number-forest-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png",
+    "evidence/bloom-desktop.png",
+    "evidence/bloom-mobile.png",
+    "evidence/bloom-wide.png",
+    "evidence/bloom-tutorial-mobile.png",
+    "evidence/bloom-first-flower.png",
+    "evidence/bloom-ending-mobile.png",
+    "evidence/bloom-collection-mobile.png",
+    "evidence/bloom-18-mobile.png",
+    "evidence/bloom-ending-desktop.png",
+    "evidence/student-copy.png"
+  ],
+  "checks": [
+    "6개 단계 모두 UI 조작으로 목표 순서 완료",
+    "1단계에서 미래 목표 +3을 먼저 제출하면 현재 0 유지",
+    "현재·다음·완료 목표 표시가 실제 제거와 함께 갱신",
+    "2단계 잘못된 +3 조합은 다음 −2 불가능으로 실패",
+    "실패 상태 새로고침 복원, 한 수 전으로 +3과 8개 돌 복원",
+    "돌이 남은 채 모든 목표 완료 시 승리",
+    "390px에서 +3 성공 후 새로고침으로 −2 목표 복원하고 승리",
+    "390px 가로 넘침 0, 모든 목표와 숫자·버튼 가독성",
+    "오류·경고 콘솔 0"
+  ],
+  "assessment": {
+    "codes": [
+      "9수01-05"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": false,
+    "mobile": true,
+    "detail": "v2 과제 7회 제출, 도움 1회, 독립 덧셈2/목표구성3. 새 양수·음수 목표 응답과 설명·교사검토 저장, 재로딩 후 JSON 내보내기 내용 확인. 실제 다운로드 버튼 구현은 이전 검증 이후 변경 없음.",
+    "jsonUiRemoved": true
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    }
+  },
+  "studentPlaytest": "not_run",
+  "previousReview": {
+    "sourceHash": "499e3f3d1748411c915e76f364eca1eb5e79dc5cc1fa88d56250279885e7935b",
+    "checkedAt": "2026-10-29T07:32:50.103Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:28.339Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "layoutRevision": {
+    "status": "passed",
+    "desktop": {
+      "width": 1281,
+      "height": 720,
+      "boardWidth": 720,
+      "overflow": 0
+    },
+    "wide": {
+      "width": 1920,
+      "height": 1080,
+      "boardWidth": 1200,
+      "overflow": 0
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "overflowX": 0,
+      "controlsBottom": 710
+    },
+    "checks": [
+      "6 stages completed through actual UI after layout change",
+      "Mobile stage 2 losing choice, undo, new choice and win",
+      "No browser warnings or errors"
+    ],
+    "unchanged": "Game engine and assessment source unchanged; prior assessment evidence retained"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Only name changed in assessment metadata; tasks, rubric, engine and record/export UI unchanged.",
+    "previousSourceHash": "ea61247c9ffb9c90a6cdddcab071c9bc3027fbad94404c99aa5e4ef9953d3403"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "All six new boards won through actual UI",
+      "Stage 2 wrong choice loses; reload preserves loss; undo and alternative win on 390px",
+      "Desktop stone size capped; mobile late board tile 53px; controls bottom 749px",
+      "Versioned play progress; independent assessment history retained"
+    ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
+  },
+  "presentationRevision": {
+    "status": "passed",
+    "title": "넘버 블룸 — 수로 피우는 숲",
+    "viewports": [
+      "2048x1040",
+      "1280x720",
+      "390x844"
+    ],
+    "checks": [
+      "All six stages won through mobile UI",
+      "7-step guided practice completed; existing collection restored",
+      "No horizontal overflow; mobile 6-column tiles 51.5px",
+      "1280 title 42px versus home brand 14px",
+      "Round lantern image distinct from square number stone",
+      "No browser warnings or errors",
+      "Assessment screen title shows Number Bloom; previous learner report retained"
+    ],
+    "futureExpansion": "18-stage garden proposal only; not implemented"
+  },
+  "campaignRevision": {
+    "status": "passed",
+    "rounds": 18,
+    "playedAllThroughUI": true,
+    "firstFlowerAt6": true,
+    "secondFlowerAt12": true,
+    "endingAt18": true,
+    "lockedBeforeComplete": true,
+    "oldSixRoundProgressMigrated": true,
+    "collectionSurvivesReload": true,
+    "endingReplay": true,
+    "repeatPlayRetainsFlowers": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "mobileEndingButtonBottom": 763,
+    "lossReloadUndoAlternativeWinRound13": true,
+    "tutorialCompletedAndOriginal18WinsRestored": true,
+    "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:33.714Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:05:54.716Z",
+    "sourceHash": "5ef5188f125fbf340348d2e33cedcd1064c4ef58908dd9049ba9ad00e72cbdc1"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:57.305Z",
+    "sourceHash": "7be20a7c3ee95db0b1b77e6be92fa79d9d281ee0e61eb5af4d2df00a4db64834",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "zero-forest",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
+  }
+}

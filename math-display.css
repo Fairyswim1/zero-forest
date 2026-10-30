@@ -1,0 +1,15 @@
+/* Local KaTeX: inherit the game's semantic ink colours, preserve native form controls. */
+.math-token{display:inline;color:inherit;text-shadow:none;letter-spacing:normal;overflow-wrap:normal}
+.math-token .katex{font-size:1em;white-space:normal;line-height:1.35;color:inherit;text-indent:0;letter-spacing:normal}
+.math-token .katex .base{white-space:nowrap}
+.math-token .katex-display{margin:.3em 0}
+button .math-token{pointer-events:none}
+.svg-math{overflow:visible;pointer-events:none;color:#173e43;font-size:16px}
+.svg-math>div{line-height:1.35}
+#mission-title{line-height:1.65;overflow-wrap:break-word}
+#fields label,#hint-text,#feedback{line-height:1.7}
+body:has(#answer-form) .math-token{color:#153b38}
+@media(max-width:600px){#mission-title{font-size:21px}#fields label{font-size:16px}}
+.tile .math-token{font-size:.86em}.tile .katex{line-height:1}#equation{line-height:1.7;min-height:2em}
+
+.math-choices{display:grid;gap:9px;margin-top:9px}.field .math-choice{display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid #c7cbb8;border-radius:12px;background:#fffdf5;color:#143c34;cursor:pointer;line-height:1.7;min-width:0}.field .math-choice:has(input:checked){background:#e4efdd;border-color:#416c50;box-shadow:inset 0 0 0 1px #416c50}.field .math-choice input[type=radio]{appearance:auto;flex:0 0 20px;width:20px;height:20px;min-height:20px;padding:0;margin:0;accent-color:#315f47}.math-choice>span{min-width:0}.math-choice:focus-within{outline:3px solid #b78a35;outline-offset:2px}

@@ -1,0 +1,243 @@
+{
+  "checks": [
+    {
+      "id": "zero-forest",
+      "stage": 1,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 19,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 2,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 21,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 3,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 27,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 4,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 32,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 5,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 39,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 6,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 44,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 7,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 27,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 8,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 32,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 9,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 32,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 10,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 42,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 11,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 42,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 12,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 43,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 13,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 37,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 14,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 43,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 15,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 43,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 16,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 43,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 17,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 43,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": 18,
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 44,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-submit",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 1,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-2",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 2,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-3",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 1,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-4",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 2,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-5",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 1,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "assessment-6",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 2,
+      "width": 376
+    },
+    {
+      "id": "zero-forest",
+      "stage": "desktop-final",
+      "errors": 0,
+      "overflow": [],
+      "page": 1266,
+      "tokens": 44,
+      "width": 1266
+    },
+    {
+      "id": "zero-forest",
+      "stage": "mobile-final",
+      "errors": 0,
+      "overflow": [],
+      "page": 376,
+      "tokens": 44,
+      "width": 376
+    }
+  ],
+  "console": {
+    "id": "zero-forest",
+    "logs": []
+  },
+  "action": "Wrong sum rejected; 0 then +3 targets completed on mobile."
+}
