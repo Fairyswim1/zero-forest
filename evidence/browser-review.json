@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "5ef5188f125fbf340348d2e33cedcd1064c4ef58908dd9049ba9ad00e72cbdc1",
-  "checkedAt": "2026-10-29T08:05:54.716Z",
+  "sourceHash": "7be20a7c3ee95db0b1b77e6be92fa79d9d281ee0e61eb5af4d2df00a4db64834",
+  "checkedAt": "2026-10-30T01:16:57.305Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -22,7 +22,8 @@
     "evidence/bloom-ending-mobile.png",
     "evidence/bloom-collection-mobile.png",
     "evidence/bloom-18-mobile.png",
-    "evidence/bloom-ending-desktop.png"
+    "evidence/bloom-ending-desktop.png",
+    "evidence/student-copy.png"
   ],
   "checks": [
     "6개 단계 모두 UI 조작으로 목표 순서 완료",
@@ -184,5 +185,14 @@
     "status": "passed",
     "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
     "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:05:54.716Z",
+    "sourceHash": "5ef5188f125fbf340348d2e33cedcd1064c4ef58908dd9049ba9ad00e72cbdc1"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
