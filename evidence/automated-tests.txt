@@ -2,292 +2,292 @@ TAP version 13
 # Subtest: only targeted addition skills and stable unseen forms
 ok 1 - only targeted addition skills and stable unseen forms
   ---
-  duration_ms: 3.4382
+  duration_ms: 3.3634
   ...
 # Subtest: wrong first answers, help, retries and blanks never count as independent
 ok 2 - wrong first answers, help, retries and blanks never count as independent
   ---
-  duration_ms: 2.5362
+  duration_ms: 2.4265
   ...
 # Subtest: distinct first submissions plus explanation review required; duplicates cannot inflate
 ok 3 - distinct first submissions plus explanation review required; duplicates cannot inflate
   ---
-  duration_ms: 0.7604
+  duration_ms: 0.7876
   ...
 # Subtest: construction tasks include nonzero goals and positive/negative answers
 ok 4 - construction tasks include nonzero goals and positive/negative answers
   ---
-  duration_ms: 0.2796
+  duration_ms: 0.2747
   ...
 # Subtest: round 7: attractive correct sum can block the entire remaining sequence
 ok 5 - round 7: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 5.0531
+  duration_ms: 4.8977
   ...
 # Subtest: round 8: attractive correct sum can block the entire remaining sequence
 ok 6 - round 8: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 2.2652
+  duration_ms: 2.6943
   ...
 # Subtest: round 9: attractive correct sum can block the entire remaining sequence
 ok 7 - round 9: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 2.0313
+  duration_ms: 1.9045
   ...
 # Subtest: round 10: attractive correct sum can block the entire remaining sequence
 ok 8 - round 10: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 7.4752
+  duration_ms: 7.8504
   ...
 # Subtest: round 11: attractive correct sum can block the entire remaining sequence
 ok 9 - round 11: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 2.194
+  duration_ms: 3.189
   ...
 # Subtest: round 12: attractive correct sum can block the entire remaining sequence
 ok 10 - round 12: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 1.5432
+  duration_ms: 2.182
   ...
 # Subtest: round 13: attractive correct sum can block the entire remaining sequence
 ok 11 - round 13: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 12.0445
+  duration_ms: 9.5149
   ...
 # Subtest: round 14: attractive correct sum can block the entire remaining sequence
 ok 12 - round 14: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 9.0031
+  duration_ms: 5.4323
   ...
 # Subtest: round 15: attractive correct sum can block the entire remaining sequence
 ok 13 - round 15: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 8.2995
+  duration_ms: 7.4461
   ...
 # Subtest: round 16: attractive correct sum can block the entire remaining sequence
 ok 14 - round 16: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 13.0756
+  duration_ms: 15.2551
   ...
 # Subtest: round 17: attractive correct sum can block the entire remaining sequence
 ok 15 - round 17: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 17.4357
+  duration_ms: 18.0257
   ...
 # Subtest: round 18: attractive correct sum can block the entire remaining sequence
 ok 16 - round 18: attractive correct sum can block the entire remaining sequence
   ---
-  duration_ms: 25.9872
+  duration_ms: 26.3712
   ...
 # Subtest: all 18 rounds are distinct and use the original 2–4-stone rule
 ok 17 - all 18 rounds are distinct and use the original 2–4-stone rule
   ---
-  duration_ms: 78.9415
+  duration_ms: 77.4798
   ...
 # Subtest: loss detection uses the actual column count, without row-edge wrapping
 ok 18 - loss detection uses the actual column count, without row-edge wrapping
   ---
-  duration_ms: 0.2681
+  duration_ms: 0.2933
   ...
 # Subtest: existing six-round wins grant exactly the first flower; never the ending
 ok 19 - existing six-round wins grant exactly the first flower; never the ending
   ---
-  duration_ms: 0.5795
+  duration_ms: 0.6436
   ...
 # Subtest: flowers require every distinct round, not 6 repeated wins or the last round alone
 ok 20 - flowers require every distinct round, not 6 repeated wins or the last round alone
   ---
-  duration_ms: 0.2658
+  duration_ms: 0.2723
   ...
 # Subtest: replay and JSON save/restore retain flowers and ignore invalid win records
 ok 21 - replay and JSON save/restore retain flowers and ignore invalid win records
   ---
-  duration_ms: 0.2208
+  duration_ms: 0.2202
   ...
 # Subtest: stage 1: all targets independently achievable in order
 ok 22 - stage 1: all targets independently achievable in order
   ---
-  duration_ms: 3.6118
+  duration_ms: 2.6745
   ...
 # Subtest: stage 2: all targets independently achievable in order
 ok 23 - stage 2: all targets independently achievable in order
   ---
-  duration_ms: 0.8084
+  duration_ms: 0.5835
   ...
 # Subtest: stage 3: all targets independently achievable in order
 ok 24 - stage 3: all targets independently achievable in order
   ---
-  duration_ms: 3.4612
+  duration_ms: 2.9182
   ...
 # Subtest: stage 4: all targets independently achievable in order
 ok 25 - stage 4: all targets independently achievable in order
   ---
-  duration_ms: 3.8009
+  duration_ms: 5.2281
   ...
 # Subtest: stage 5: all targets independently achievable in order
 ok 26 - stage 5: all targets independently achievable in order
   ---
-  duration_ms: 6.8617
+  duration_ms: 5.0103
   ...
 # Subtest: stage 6: all targets independently achievable in order
 ok 27 - stage 6: all targets independently achievable in order
   ---
-  duration_ms: 27.1029
+  duration_ms: 24.4726
   ...
 # Subtest: stage 7: all targets independently achievable in order
 ok 28 - stage 7: all targets independently achievable in order
   ---
-  duration_ms: 5.1781
+  duration_ms: 4.6864
   ...
 # Subtest: stage 8: all targets independently achievable in order
 ok 29 - stage 8: all targets independently achievable in order
   ---
-  duration_ms: 2.4193
+  duration_ms: 2.2885
   ...
 # Subtest: stage 9: all targets independently achievable in order
 ok 30 - stage 9: all targets independently achievable in order
   ---
-  duration_ms: 1.2194
+  duration_ms: 1.2289
   ...
 # Subtest: stage 10: all targets independently achievable in order
 ok 31 - stage 10: all targets independently achievable in order
   ---
-  duration_ms: 7.61
+  duration_ms: 8.5911
   ...
 # Subtest: stage 11: all targets independently achievable in order
 ok 32 - stage 11: all targets independently achievable in order
   ---
-  duration_ms: 26.3089
+  duration_ms: 24.8135
   ...
 # Subtest: stage 12: all targets independently achievable in order
 ok 33 - stage 12: all targets independently achievable in order
   ---
-  duration_ms: 2.4901
+  duration_ms: 3.1583
   ...
 # Subtest: stage 13: all targets independently achievable in order
 ok 34 - stage 13: all targets independently achievable in order
   ---
-  duration_ms: 2.7401
+  duration_ms: 2.9793
   ...
 # Subtest: stage 14: all targets independently achievable in order
 ok 35 - stage 14: all targets independently achievable in order
   ---
-  duration_ms: 46.2513
+  duration_ms: 47.7031
   ...
 # Subtest: stage 15: all targets independently achievable in order
 ok 36 - stage 15: all targets independently achievable in order
   ---
-  duration_ms: 13.777
+  duration_ms: 14.2809
   ...
 # Subtest: stage 16: all targets independently achievable in order
 ok 37 - stage 16: all targets independently achievable in order
   ---
-  duration_ms: 1.6856
+  duration_ms: 1.8478
   ...
 # Subtest: stage 17: all targets independently achievable in order
 ok 38 - stage 17: all targets independently achievable in order
   ---
-  duration_ms: 29.5614
+  duration_ms: 31.5393
   ...
 # Subtest: stage 18: all targets independently achievable in order
 ok 39 - stage 18: all targets independently achievable in order
   ---
-  duration_ms: 101.6836
+  duration_ms: 111.4408
   ...
 # Subtest: 0, positive and negative goals are distinct; cannot submit a future goal early
 ok 40 - 0, positive and negative goals are distinct; cannot submit a future goal early
   ---
-  duration_ms: 0.2004
+  duration_ms: 0.2095
   ...
 # Subtest: nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
 ok 41 - nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
   ---
-  duration_ms: 0.3368
+  duration_ms: 0.3413
   ...
 # Subtest: selection backtracks and does not exceed four stones
 ok 42 - selection backtracks and does not exceed four stones
   ---
-  duration_ms: 0.9879
+  duration_ms: 0.9747
   ...
 # Subtest: stage 2: same-size correct first sum can destroy the next goal
 ok 43 - stage 2: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 0.434
+  duration_ms: 0.4643
   ...
 # Subtest: stage 3: same-size correct first sum can destroy the next goal
 ok 44 - stage 3: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 1.0153
+  duration_ms: 1.083
   ...
 # Subtest: stage 4: same-size correct first sum can destroy the next goal
 ok 45 - stage 4: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 3.1615
+  duration_ms: 3.791
   ...
 # Subtest: stage 5: same-size correct first sum can destroy the next goal
 ok 46 - stage 5: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 4.2494
+  duration_ms: 6.3061
   ...
 # Subtest: stage 6: same-size correct first sum can destroy the next goal
 ok 47 - stage 6: same-size correct first sum can destroy the next goal
   ---
-  duration_ms: 10.162
+  duration_ms: 13.4575
   ...
 # Subtest: success allows leftover stones and requires every target, not an empty board
 ok 48 - success allows leftover stones and requires every target, not an empty board
   ---
-  duration_ms: 0.5815
+  duration_ms: 0.3029
   ...
 # Subtest: a snapshot restores both board and target sequence after a bad choice
 ok 49 - a snapshot restores both board and target sequence after a bad choice
   ---
-  duration_ms: 0.255
+  duration_ms: 0.2394
   ...
 # Subtest: boards grow while the four-stone rule stays fixed and row edges never wrap
 ok 50 - boards grow while the four-stone rule stays fixed and row edges never wrap
   ---
-  duration_ms: 0.4043
+  duration_ms: 0.3847
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 51 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.4048
+  duration_ms: 1.8015
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 52 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 81.0119
+  duration_ms: 79.2053
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 53 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.7725
+  duration_ms: 0.7913
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 54 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.3405
+  duration_ms: 0.3378
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 55 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.3256
+  duration_ms: 0.3134
   ...
 # Subtest: first visit uses isolated practice state and leaves existing progress untouched
 ok 56 - first visit uses isolated practice state and leaves existing progress untouched
   ---
-  duration_ms: 4.1945
+  duration_ms: 3.5424
   ...
 # Subtest: skip and replay are per game and replay cannot overwrite learning records
 ok 57 - skip and replay are per game and replay cannot overwrite learning records
   ---
-  duration_ms: 0.6902
+  duration_ms: 0.5
   ...
 # Subtest: storage denied can still skip without a redirect loop
 ok 58 - storage denied can still skip without a redirect loop
   ---
-  duration_ms: 0.2569
+  duration_ms: 0.2731
   ...
 1..58
 # tests 58
@@ -297,4 +297,4 @@ ok 58 - storage denied can still skip without a redirect loop
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 448.302
+# duration_ms 471.3374

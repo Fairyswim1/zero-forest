@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "sourceHash": "7be20a7c3ee95db0b1b77e6be92fa79d9d281ee0e61eb5af4d2df00a4db64834",
-  "checkedAt": "2026-10-30T01:16:57.305Z",
+  "sourceHash": "9d1bc65c6393cdf402cc0819c9803fc7d8d03ee7673358f8cad987b3835e33b1",
+  "checkedAt": "2026-10-30T06:17:10.304Z",
   "screenshots": [
     "evidence/targets-desktop.png",
     "evidence/targets-mobile.png",
@@ -45,9 +45,10 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
-    "detail": "v2 과제 7회 제출, 도움 1회, 독립 덧셈2/목표구성3. 새 양수·음수 목표 응답과 설명·교사검토 저장, 재로딩 후 JSON 내보내기 내용 확인. 실제 다운로드 버튼 구현은 이전 검증 이후 변경 없음."
+    "detail": "v2 과제 7회 제출, 도움 1회, 독립 덧셈2/목표구성3. 새 양수·음수 목표 응답과 설명·교사검토 저장, 재로딩 후 JSON 내보내기 내용 확인. 실제 다운로드 버튼 구현은 이전 검증 이후 변경 없음.",
+    "jsonUiRemoved": true
   },
   "typography": {
     "status": "passed",
@@ -194,5 +195,27 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:57.305Z",
+    "sourceHash": "7be20a7c3ee95db0b1b77e6be92fa79d9d281ee0e61eb5af4d2df00a4db64834",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "zero-forest",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }
