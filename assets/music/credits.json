@@ -1,0 +1,42 @@
+{
+  "title": "새싹의 노래",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "새싹의 노래",
+    "root": 62,
+    "bpm": 70,
+    "color": "harp",
+    "minor": false,
+    "motif": [
+      0,
+      4,
+      7,
+      9,
+      7,
+      4,
+      2,
+      4
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 70,
+      "seconds": 54.857142857142854,
+      "peak": 0.23838594542921007,
+      "rms": 0.05636340154462721,
+      "seamDelta": 0.0035915532252872306,
+      "sha256": "92989c09b70b53461f587159bd41b5cea2548371a0fd1fad9bb8b781d536065c"
+    },
+    {
+      "mode": "energy",
+      "bpm": 94,
+      "seconds": 40.85106575963719,
+      "peak": 0.32185191368622984,
+      "rms": 0.0699155963266523,
+      "seamDelta": 0.0015422086761903786,
+      "sha256": "ac38f79bff70687389103758d7785524fa324f82ca46ab420e8d22a749908e81"
+    }
+  ]
+}

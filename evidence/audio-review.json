@@ -1,0 +1,23 @@
+{
+  "id": "zero-forest",
+  "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+  "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+  "focus": {
+    "playing": true,
+    "readyState": 4
+  },
+  "energy": {
+    "playing": true,
+    "readyState": 4
+  },
+  "effectsSignal": true,
+  "independentEffectsMute": true,
+  "musicStop": true,
+  "mobileWidth": 390,
+  "horizontalOverflow": false,
+  "musicMenuInBounds": true,
+  "consoleErrors": [],
+  "roundChangeWithoutRestart": true,
+  "tutorialMusicButtonClickedAndPlayingLabel": true,
+  "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+}

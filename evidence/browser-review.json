@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:43.955Z",
-  "sourceHash": "470a4ed9c9e69a51788f14f2a627808492590969acc4ebd789fec8b1910a37fe",
+  "sourceHash": "b2b6eada67b012e3b56befd2470981aa1a08a2325ca5ff9006bffc68c55d0a45",
   "screenshots": [
     "evidence/math-zero-forest-desktop.png",
     "evidence/math-zero-forest-mobile.png",
@@ -50,5 +50,28 @@
   "limitations": [
     "This revision checks all starting layouts, representative play and the existing complete engine test suite; it does not replay every stage to victory.",
     "No student learning-effect study."
-  ]
+  ],
+  "audioRefresh": {
+    "id": "zero-forest",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "roundChangeWithoutRestart": true,
+    "tutorialMusicButtonClickedAndPlayingLabel": true,
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
 }
