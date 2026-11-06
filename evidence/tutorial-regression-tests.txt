@@ -1,0 +1,380 @@
+TAP version 13
+# Subtest: only targeted addition skills and stable unseen forms
+ok 1 - only targeted addition skills and stable unseen forms
+  ---
+  duration_ms: 4.3722
+  ...
+# Subtest: wrong first answers, help, retries and blanks never count as independent
+ok 2 - wrong first answers, help, retries and blanks never count as independent
+  ---
+  duration_ms: 3.5849
+  ...
+# Subtest: distinct first submissions plus explanation review required; duplicates cannot inflate
+ok 3 - distinct first submissions plus explanation review required; duplicates cannot inflate
+  ---
+  duration_ms: 1.24
+  ...
+# Subtest: construction tasks include nonzero goals and positive/negative answers
+ok 4 - construction tasks include nonzero goals and positive/negative answers
+  ---
+  duration_ms: 0.4094
+  ...
+# Subtest: round 7: attractive correct sum can block the entire remaining sequence
+ok 5 - round 7: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 6.4478
+  ...
+# Subtest: round 8: attractive correct sum can block the entire remaining sequence
+ok 6 - round 8: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 3.1452
+  ...
+# Subtest: round 9: attractive correct sum can block the entire remaining sequence
+ok 7 - round 9: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 3.2384
+  ...
+# Subtest: round 10: attractive correct sum can block the entire remaining sequence
+ok 8 - round 10: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 10.4361
+  ...
+# Subtest: round 11: attractive correct sum can block the entire remaining sequence
+ok 9 - round 11: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 3.4581
+  ...
+# Subtest: round 12: attractive correct sum can block the entire remaining sequence
+ok 10 - round 12: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 2.9118
+  ...
+# Subtest: round 13: attractive correct sum can block the entire remaining sequence
+ok 11 - round 13: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 22.1432
+  ...
+# Subtest: round 14: attractive correct sum can block the entire remaining sequence
+ok 12 - round 14: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 18.7819
+  ...
+# Subtest: round 15: attractive correct sum can block the entire remaining sequence
+ok 13 - round 15: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 4.1873
+  ...
+# Subtest: round 16: attractive correct sum can block the entire remaining sequence
+ok 14 - round 16: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 24.8901
+  ...
+# Subtest: round 17: attractive correct sum can block the entire remaining sequence
+ok 15 - round 17: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 26.9327
+  ...
+# Subtest: round 18: attractive correct sum can block the entire remaining sequence
+ok 16 - round 18: attractive correct sum can block the entire remaining sequence
+  ---
+  duration_ms: 42.7498
+  ...
+# Subtest: all 18 rounds are distinct and use the original 2–4-stone rule
+ok 17 - all 18 rounds are distinct and use the original 2–4-stone rule
+  ---
+  duration_ms: 114.6424
+  ...
+# Subtest: loss detection uses the actual column count, without row-edge wrapping
+ok 18 - loss detection uses the actual column count, without row-edge wrapping
+  ---
+  duration_ms: 0.3301
+  ...
+# Subtest: existing six-round wins grant exactly the first flower; never the ending
+ok 19 - existing six-round wins grant exactly the first flower; never the ending
+  ---
+  duration_ms: 0.9025
+  ...
+# Subtest: flowers require every distinct round, not 6 repeated wins or the last round alone
+ok 20 - flowers require every distinct round, not 6 repeated wins or the last round alone
+  ---
+  duration_ms: 0.307
+  ...
+# Subtest: replay and JSON save/restore retain flowers and ignore invalid win records
+ok 21 - replay and JSON save/restore retain flowers and ignore invalid win records
+  ---
+  duration_ms: 0.2821
+  ...
+# Subtest: stage 1: all targets independently achievable in order
+ok 22 - stage 1: all targets independently achievable in order
+  ---
+  duration_ms: 4.0415
+  ...
+# Subtest: stage 2: all targets independently achievable in order
+ok 23 - stage 2: all targets independently achievable in order
+  ---
+  duration_ms: 2.0039
+  ...
+# Subtest: stage 3: all targets independently achievable in order
+ok 24 - stage 3: all targets independently achievable in order
+  ---
+  duration_ms: 3.1073
+  ...
+# Subtest: stage 4: all targets independently achievable in order
+ok 25 - stage 4: all targets independently achievable in order
+  ---
+  duration_ms: 6.9288
+  ...
+# Subtest: stage 5: all targets independently achievable in order
+ok 26 - stage 5: all targets independently achievable in order
+  ---
+  duration_ms: 9.5573
+  ...
+# Subtest: stage 6: all targets independently achievable in order
+ok 27 - stage 6: all targets independently achievable in order
+  ---
+  duration_ms: 40.0271
+  ...
+# Subtest: stage 7: all targets independently achievable in order
+ok 28 - stage 7: all targets independently achievable in order
+  ---
+  duration_ms: 7.9396
+  ...
+# Subtest: stage 8: all targets independently achievable in order
+ok 29 - stage 8: all targets independently achievable in order
+  ---
+  duration_ms: 2.9091
+  ...
+# Subtest: stage 9: all targets independently achievable in order
+ok 30 - stage 9: all targets independently achievable in order
+  ---
+  duration_ms: 1.5574
+  ...
+# Subtest: stage 10: all targets independently achievable in order
+ok 31 - stage 10: all targets independently achievable in order
+  ---
+  duration_ms: 15.9131
+  ...
+# Subtest: stage 11: all targets independently achievable in order
+ok 32 - stage 11: all targets independently achievable in order
+  ---
+  duration_ms: 35.5512
+  ...
+# Subtest: stage 12: all targets independently achievable in order
+ok 33 - stage 12: all targets independently achievable in order
+  ---
+  duration_ms: 3.7038
+  ...
+# Subtest: stage 13: all targets independently achievable in order
+ok 34 - stage 13: all targets independently achievable in order
+  ---
+  duration_ms: 4.6986
+  ...
+# Subtest: stage 14: all targets independently achievable in order
+ok 35 - stage 14: all targets independently achievable in order
+  ---
+  duration_ms: 60.7996
+  ...
+# Subtest: stage 15: all targets independently achievable in order
+ok 36 - stage 15: all targets independently achievable in order
+  ---
+  duration_ms: 23.26
+  ...
+# Subtest: stage 16: all targets independently achievable in order
+ok 37 - stage 16: all targets independently achievable in order
+  ---
+  duration_ms: 2.4676
+  ...
+# Subtest: stage 17: all targets independently achievable in order
+ok 38 - stage 17: all targets independently achievable in order
+  ---
+  duration_ms: 44.7013
+  ...
+# Subtest: stage 18: all targets independently achievable in order
+ok 39 - stage 18: all targets independently achievable in order
+  ---
+  duration_ms: 151.403
+  ...
+# Subtest: 0, positive and negative goals are distinct; cannot submit a future goal early
+ok 40 - 0, positive and negative goals are distinct; cannot submit a future goal early
+  ---
+  duration_ms: 0.2058
+  ...
+# Subtest: nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
+ok 41 - nonadjacent, duplicate, empty, overlong, and incorrect sums rejected
+  ---
+  duration_ms: 0.3321
+  ...
+# Subtest: selection backtracks and does not exceed four stones
+ok 42 - selection backtracks and does not exceed four stones
+  ---
+  duration_ms: 1.0626
+  ...
+# Subtest: stage 2: same-size correct first sum can destroy the next goal
+ok 43 - stage 2: same-size correct first sum can destroy the next goal
+  ---
+  duration_ms: 0.5647
+  ...
+# Subtest: stage 3: same-size correct first sum can destroy the next goal
+ok 44 - stage 3: same-size correct first sum can destroy the next goal
+  ---
+  duration_ms: 1.1628
+  ...
+# Subtest: stage 4: same-size correct first sum can destroy the next goal
+ok 45 - stage 4: same-size correct first sum can destroy the next goal
+  ---
+  duration_ms: 3.5621
+  ...
+# Subtest: stage 5: same-size correct first sum can destroy the next goal
+ok 46 - stage 5: same-size correct first sum can destroy the next goal
+  ---
+  duration_ms: 7.0472
+  ...
+# Subtest: stage 6: same-size correct first sum can destroy the next goal
+ok 47 - stage 6: same-size correct first sum can destroy the next goal
+  ---
+  duration_ms: 14.6318
+  ...
+# Subtest: success allows leftover stones and requires every target, not an empty board
+ok 48 - success allows leftover stones and requires every target, not an empty board
+  ---
+  duration_ms: 0.4948
+  ...
+# Subtest: a snapshot restores both board and target sequence after a bad choice
+ok 49 - a snapshot restores both board and target sequence after a bad choice
+  ---
+  duration_ms: 0.408
+  ...
+# Subtest: boards grow while the four-stone rule stays fixed and row edges never wrap
+ok 50 - boards grow while the four-stone rule stays fixed and row edges never wrap
+  ---
+  duration_ms: 0.5112
+  ...
+# Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
+ok 51 - Fractions bind only their denominator, preserving rational coefficients and signs
+  ---
+  duration_ms: 1.216
+  ...
+# Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+ok 52 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+  ---
+  duration_ms: 16.5149
+  ...
+# Subtest: Text and unsafe input are escaped; no HTML commands are accepted
+ok 53 - Text and unsafe input are escaped; no HTML commands are accepted
+  ---
+  duration_ms: 0.3666
+  ...
+# Subtest: Every actual prompt, hint and choice preserves its text across all three variants
+ok 54 - Every actual prompt, hint and choice preserves its text across all three variants
+  ---
+  duration_ms: 10.7418
+  ...
+# Subtest: Blank symbols and incomplete learner notation stay readable
+ok 55 - Blank symbols and incomplete learner notation stay readable
+  ---
+  duration_ms: 0.9544
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 56 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 2.1898
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 57 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 3.0808
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 58 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.7204
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 59 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.4351
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 60 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.4002
+  ...
+# Subtest: pause cancels a pending play state update
+ok 61 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.3874
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 62 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.4189
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 63 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.8347
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 64 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 86.3589
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 65 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.8229
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 66 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.4454
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 67 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.6442
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 68 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 2.5505
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 69 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 3.2917
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 70 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 4.7029
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 71 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.8435
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 72 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.52
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 73 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.5505
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 74 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.5598
+  ...
+1..74
+# tests 74
+# suites 0
+# pass 74
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 694.1123

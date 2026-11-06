@@ -6,7 +6,7 @@ export function mountTutorial(context,{title,begin,steps}){
  const q=s=>root.querySelector(s),card=q('#tour-card'),next=q('#tour-next');let index=-1,timer,finished=false,lastReady=null,lastTarget=null;
  const step=()=>steps[index];const nodes=s=>s?(Array.isArray(s)?s:[s]).flatMap(selector=>[...document.querySelectorAll(selector)]):[];
  const allowed=target=>root.contains(target)||nodes(step()?.allow).some(el=>el===target||el.contains(target));
- function leave(status){if(finished)return;finished=true;clearInterval(timer);document.removeEventListener('click',guard,true);document.removeEventListener('submit',guardSubmit,true);document.removeEventListener('keydown',keys,true);location.replace(context.finish(status));}
+ function leave(status){if(finished)return;finished=true;clearInterval(timer);document.removeEventListener('click',guard,true);document.removeEventListener('submit',guardSubmit,true);document.removeEventListener('keydown',keys,true);const next=context.finish(status);if(next===location.href)location.reload();else location.replace(next);}
  function guard(e){let done=false;try{done=Boolean(step()?.ready?.());}catch{}if(!root.contains(e.target)&&done&&e.target.closest('button')){e.preventDefault();e.stopImmediatePropagation();return;}if(!allowed(e.target)){e.preventDefault();e.stopImmediatePropagation();}}
  function guardSubmit(e){if(!allowed(e.submitter||e.target)){e.preventDefault();e.stopImmediatePropagation();}}
  const focusables=()=>[...new Set([...nodes(step()?.allow).flatMap(n=>[n,...n.querySelectorAll('button,input,select,textarea,a[href],[tabindex]')]),...card.querySelectorAll('button')])].filter(n=>n.matches('button,input,select,textarea,a[href],[tabindex]')&&!n.disabled&&n.getClientRects().length);

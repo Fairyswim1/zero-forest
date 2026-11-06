@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-30T07:51:43.955Z",
+  "sourceHash": "b2b6eada67b012e3b56befd2470981aa1a08a2325ca5ff9006bffc68c55d0a45",
+  "screenshots": [
+    "evidence/math-zero-forest-desktop.png",
+    "evidence/math-zero-forest-mobile.png",
+    "evidence/math-zero-forest-assessment.png"
+  ],
+  "checks": [
+    "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
+    "No horizontal page or measured math-container overflow; no KaTeX error nodes.",
+    "Actual independent assessment submission correct; all available task layouts checked at 390px.",
+    "Wrong sum rejected; 0 then +3 targets completed on mobile."
+  ],
+  "assessment": {
+    "codes": [
+      "9수01-05"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": false,
+    "mobile": true,
+    "detail": "v2 과제 7회 제출, 도움 1회, 독립 덧셈2/목표구성3. 새 양수·음수 목표 응답과 설명·교사검토 저장, 재로딩 후 JSON 내보내기 내용 확인. 실제 다운로드 버튼 구현은 이전 검증 이후 변경 없음.",
+    "jsonUiRemoved": true,
+    "details": "This revision: actual correct first-task submission and mobile task layouts. Shared radio UI keyboard, wrong response, hint, retry, reload and report tested in Ember Slide. Earlier per-standard grading/report coverage is preserved in browser-review-before-latex.json; grading and persistence algorithms unchanged."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum",
+      "math": "KaTeX"
+    },
+    "checks": [
+      "Local fonts and license",
+      "Math contrast, safe card/button space and fraction/power rendering inspected"
+    ]
+  },
+  "previousReview": {
+    "sourceHash": "9d1bc65c6393cdf402cc0819c9803fc7d8d03ee7673358f8cad987b3835e33b1",
+    "checkedAt": "2026-10-30T06:17:10.304Z",
+    "file": "evidence/browser-review-before-latex.json"
+  },
+  "limitations": [
+    "This revision checks all starting layouts, representative play and the existing complete engine test suite; it does not replay every stage to victory.",
+    "No student learning-effect study."
+  ],
+  "audioRefresh": {
+    "id": "zero-forest",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "roundChangeWithoutRestart": true,
+    "tutorialMusicButtonClickedAndPlayingLabel": true,
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
+}

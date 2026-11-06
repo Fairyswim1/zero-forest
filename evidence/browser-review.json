@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:43.955Z",
-  "sourceHash": "b2b6eada67b012e3b56befd2470981aa1a08a2325ca5ff9006bffc68c55d0a45",
+  "sourceHash": "33a1051656d91974f5f876f41f3afcac7e32c51e24c6d0666af87f5a5e61ea45",
   "screenshots": [
     "evidence/math-zero-forest-desktop.png",
     "evidence/math-zero-forest-mobile.png",
-    "evidence/math-zero-forest-assessment.png"
+    "evidence/math-zero-forest-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -73,5 +74,18 @@
     "roundChangeWithoutRestart": true,
     "tutorialMusicButtonClickedAndPlayingLabel": true,
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:45:05.896Z",
+    "id": "zero-forest",
+    "firstVisitOff": true,
+    "startedStep": "한 곳씩, 같이 해볼까요?",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "keyboardEscape": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "b2b6eada67b012e3b56befd2470981aa1a08a2325ca5ff9006bffc68c55d0a45",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
